@@ -168,7 +168,7 @@ with st.container():
         "#### 지표 시각화",
         help="색상은 선택한 지표 값에 따라 표시됩니다. 값이 높을수록 빨간색에 가깝고, 낮을수록 파란색에 가깝습니다."
     )
-    folium_static(m, width=1500, height=600)
+    folium_static(m, width=1600, height=600)
 
     # 하단: 바 차트와 파이 차트를 나란히 배치
     bottom_col1, bottom_col2 = st.columns([1, 1])
