@@ -1,0 +1,7 @@
+streamlit
+pandas
+folium
+matplotlib
+streamlit-folium
+plotly
+
