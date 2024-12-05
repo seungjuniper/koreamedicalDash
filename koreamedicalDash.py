@@ -7,10 +7,10 @@ import matplotlib.colors as mcolors
 import plotly.express as px
 
 # 엑셀 파일 경로 설정
-file_path = "C:/Users/drsek/OneDrive/문서/대학교/BADA/프로젝트2/final.xlsx"
+url="https://raw.githubusercontent.com/seungjuniper/koreamedicalDash/main/final.xlsx" 
 
 # 엑셀 파일을 DataFrame으로 읽기
-df = pd.read_excel(file_path)
+df = pd.read_excel(url)
 
 # 숫자형 데이터 처리
 for col in ["인구 10만명 당 병상수", "인구 10만명 당 병원수", "인구 10만명 당 의사수", "미충족의료율", "의료접근성지표", "전공불균형지표"]:
